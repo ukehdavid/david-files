@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+     crossorigin="anonymous">
+    <title>David Bussineses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+    <link rel="stylesheet" href="css/slideWiz.css">
+    <link href="css/slideWiz.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="js/framework/slideWiz.js"></script>
+    <header>
+        <h1>S-TECHMAX</h1>
+        <p>First Learn Then Earn</p>
+    </header>
+    <nav id="sticky_nav">
+        <div class="container_left">
+            <a class="home" href="#">
+                <i class="fa fa-home"></i>
+            </a>
+            <button id="btnMenu" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-close"></i>
+            </button>
+        </div>
+        <div class="container_menu" id="thisMenu">
+            <div class="container_list">
+                <button class="btnList" onclick="openList('1')">
+                    <span class="drop">About</span>
+                    <span class="acc">Accordion</span>
+                </button>
+                <div class="content_list left" id="thisList_1">
+                    <a href="#">Our Company</a>
+                </div>
+            </div>
+            <div class="container_list">
+                <button class="btnList" onclick="openList('2')">
+                    <span class="drop">News</span>
+                    <span class="acc">Accordion 2</span>
+                </button>
+                <div class="content_list left" id="thisList_2">
+                    <a href="#">Competetions</a>
+                </div>
+            </div>
+            <div class="container_list">
+                <button class="btnList" onclick="openList('3')">
+                    <span class="drop">Help Desk</span>
+                    <span class="acc">Accordion 3</span>
+                </button>
+                <div class="content_list center" id="thisList_3">
+                    <a href="#">Application problems</a>
+                    <a href="#">Cant Find What Am Looking For</a>
+                </div>
+            </div>
+            <div class="container_list">
+                <button class="btnList" onclick="openList('4')">
+                    <span class="drop">Suggestions</span>
+                    <span class="acc">Accordion 4</span>
+                </button>
+                <div class="content_list right" id="thisList_4">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="container_list">
+                <button class="btnList" onclick="openList('5')">
+                    <span class="drop">Forum</span>
+                    <span class="acc">Accordion 5</span>
+                </button>
+                <div class="content_list right" id="thisList_5">
+                    <a href="#">Beginers Group</a>
+                    <a href="#">Intermidiate Class</a>
+                    <a href="#">Top Class</a>
+                    <a href="#">Graduating Class</a>
+                </div>
+            </div>
+        </div>
+        <div class="container_right">
+            <div class="content_search" id="thisSearch">
+                <form><input type="text" placeholder="Search..."></form>
+            </div>
+            <button id="btnSearch" onclick="openSearch()">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-close"></i>
+            </button>
+        </div>
+    </nav>
+    <div class="title">
+        <h2>Education without application is just entertainment</h2>
+    </div>
+    <!-- ================================this is for the slide container ========================-->
+    <div class="slide-container"></div>
+    <!-- ================================this section is for programm display=================== -->
+    <div class="flex-container">
+        <div class="flex-items">
+            <h3><i class="fas fa-users"></i> Talk To Our Experts</h3>
+            <p>We make it possible for you to talk with our Experts just incase you are finding dificulties in any aspect.
+               How ever we feel it may be of useful help to you two, our experts are open to ure Suggestions, complaints
+               and always ready to help. <strong>Remember no you no us.</strong> 
+            </p>
+        </div>
+        <div class="flex-items">
+            <h3><i class="fas fa-comment-alt"></i> Communicate With Peopel</h3>
+            <p>Communicating with people is one of the futures we have made available on our site to enable you make friends 
+               all over the world share ideas and interact Online.
+            </p>
+        </div>
+        <div class="flex-items">
+            <h3><i class="fas fa-book"></i> Learn Anything Online</h3>
+            <p>What do you want to learn, online programs? You are on the right site. You can now find any course on our site.
+               Or do you need a home teacher we are at your service. 
+            </p>
+        </div>
+    </div>
+    <div class="flex-grid">
+        <h3>Popular Courses</h3>
+    <div class="flex-grid-items flex-items">
+        <img src="images/logo-2.jpg" alt="">
+    </div>
+    <div class="flex-grid-items flex-items">
+        <img src="images/logo-3.jpg" alt="">
+    </div>
+    <div class="flex-grid-items flex-items">
+        <img src="images/logo  .jpg" alt="">
+    </div>
+    </div>
+    <script src="jquery/jquery.js"></script>
+    <script src="js/slideShow.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+</html>
